@@ -12,6 +12,8 @@ import Page from './components/ContextSample';
 import Counter from './components/Counter';
 import Reducer from './components/Reducer';
 import { Clock } from './components/Clock';
+import ImageUploader from './components/ImageUploader';
+import { Input } from './components/Input';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -27,6 +29,8 @@ root.render(
     <Counter initialValue={0}/>
     <Reducer initialValue={0}/>
     <Clock/>
+    <ImageUploader/>
+    <Input />
   </React.StrictMode>
 );
 
